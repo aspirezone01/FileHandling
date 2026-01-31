@@ -13,7 +13,7 @@ public class Demo {
         p.load(fs);
 
         String s = p.getProperty("db.password");
-        String g = p.getProperty("db.username");
+        String g = p.getProperty("db.usrname");
         String d = p.getProperty("db.url");
 
         System.out.println(s);
